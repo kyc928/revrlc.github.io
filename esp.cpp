@@ -1,8 +1,8 @@
 #include <ESP8266WiFi.h>
 #include <Servo.h>
 
-const char* ssid = "your-SSID"; //wifi network name
-const char* password = "your-PASSWORD";  //wifi network password (leave blank if no password)
+const char* ssid = "UCSD-GUEST"; //wifi network name
+const char* password = "";  //wifi network password (leave blank if no password)
 
 Servo myServo;
 int servoPin = D1;  // GPIO Pin for Servo
